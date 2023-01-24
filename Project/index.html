@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home</title>
+		<link rel="stylesheet" href="./css/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="./css/Style1.css">	
+	</head>
+<body>
+
+
+	<div class="navbar">
+		<div class="nav-center">
+			<a class="logo" href="home.html">TourX</a>
+									
+			<ul>
+				<li><a class="active" href="index.html">Home</a></li>
+				<li><a href="./contact/contact-us.html">Contact</a></li>
+				<li><a href="Aboutus.html">About</a></li>
+			</ul>
+									
+			
+			<div class="social-login">
+				
+				<ul class="social-list">
+					<li><a href="#">
+						<i class="fa fa-facebook"></i>
+					</a></li>
+					<li><a href="#">
+						<i class="fa fa-instagram"></i>
+					</a></li>
+					<li><a href="#">
+						<i class="fa fa-twitter"></i>
+					</a></li>
+					<li><a href="#">
+						<i class="fa fa-youtube"></i>
+					</a></li>
+					
+				</ul>
+				<a href="project.html" class="login">Login</a>
+			</div>
+			
+		</div>
+	</div>
+	<div id='background' class="search">
+		<div class="search-bar"	>
+			<h1>Where do you want to go?</h1>
+
+			 	<label for="Destination" id="destination" name="Destination" placeholder="Destination, City"></label>
+				<select name="dest" id="dest" form="search" placeholder="yes" onChange="changeCity()"> 
+					<option value = "antalya">Antalya</option>
+					<option value = "istanbul" selected>Istanbul</option>
+					<option value = "trabzon">Trabzon</option>
+				</select>
+
+				<label for="start">Start date:</label>
+				<input type="date" id="start" name="trip-start"
+						value=""
+						min="" max="">
+
+				<label for="end">End date:</label>	   
+				<input type="date" id="end" name="trip-start"
+						value=""
+						min="" max="">   
+
+				<button onClick="searchFn()"></button>
+		</div>
+	</div>
+	
+	
+
+	<footer>
+		<div class="footer">
+			<div class="footer1">
+				
+				<ul>
+					<li><a href="T&Q.html">Terms and conditions</a></li>
+					<li><a href="Contact us.html">Contact Us</a></li>
+					<li><a href="FAQ.html">FAQ</a></li>
+					<li><a href="careers.html">Careers</a></li>
+				</ul>
+				<p>TourX © 2022  |  <a href="http://www.iku.edu.tr">IKU</a></p>
+				
+				<div class="social-buttons">
+				
+				  <a href="#"><i class="fab fa-teamspeak"></i></a>
+				  <a href="#"><i class="fab fa-twitter"></i></a>
+				  <a href="#"><i class="fab fa-instagram"></i></a>
+				  <a href="#"><i class="fab fa-youtube"></i></a>
+				  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+					
+				</div>
+				
+			</div>	
+			<div class="footer2">
+				
+				<table>
+					<tr>
+						<th>HTML</th>
+						<th>CSS</th>
+						<th>Javascript</th>
+					</tr>
+					<tr>
+						<td>HTML</td>
+						<td>CSS</td>
+						<td>Javascript</td>
+					</tr>
+				</table>
+			</div>
+			
+		</div>
+
+	</footer>		
+<script src="./js/main.js"></script>
+</body>
+</html>
+
